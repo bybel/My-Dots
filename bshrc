@@ -1,0 +1,9 @@
+wal-tile() {
+  wal -n -i "$@"
+  feh --bg-scale "$(< "${HOME}/.cache/wal/wal")"
+}
+
+piaSwiss() {
+  sudo openvpn /etc/openvpn/Switzerland.ovpn
+}
+
